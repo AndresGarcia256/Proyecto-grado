@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Marmelad", sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    margin: 0%;
+    margin-bottom: 30px;
+}
+
+.marmelad-regular {
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header {
+    color: #1059e2;
+    font-style: normal;
+    font-family: "Marmelad", sans-serif;
+    font-weight: 700;
+    
+    align-content: center;
+    padding: 0%;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.encabezado {
+    text-align: center;
+    font-size: 30px; 
+    width: 100%;
+    margin-top: -20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.registro {
+    font-style: normal;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    background-color: #b1d6fd;
+    width: 400px;
+    height: 490px;
+    padding: 20px;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    height: 500px;
+    width: 90%;
+}
+
+#nombre, #email, #password {
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.boton{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    width: 170px;
+}
+
+#inic-boton{
+    background-color:  #ffffff;
+    border-color: #ffffff;
+}
+
+#regis-boton{
+    background-color:  #89b2ff;
+    margin-left: -5px;
+    border-color: #89b2ff;
+}
+
+#check{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+
+p.terms{
+    display: inline-block;
+    margin: 0;
+    font-size: small;
+    margin-bottom: 20px;
+    font-weight: 400;
+    
+}
+
+::placeholder {
+    font-style: normal;
+    font-family: "Averia Serif Libre", serif;
+}
+
+#envio{
+    background-color: #2e71ee;
+    color: #ffffff;
+    border-radius: 10px; 
+    margin-bottom: 40px;
+    font-style: normal;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    width: 350px;
+    height: 30px;
+}
+
+.separador{
+    margin: 0;
+    font-weight: 500;
+}
+
+.parrafo{
+    text-align: left;
+    font-weight: 400;
+    font-size: small;
+}
+
+.loguito1, .loguito2{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+
+.loguito2{
+    margin-left: 65px;
+}
+

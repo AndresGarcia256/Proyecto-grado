@@ -1,0 +1,105 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.marmelad-regular {
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.logo {
+    width: 180px;
+    margin: 10px;
+}
+
+.encabezado {
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.registro {
+    background-color: #b1d6fd;
+    width: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    width: 100%;
+}
+
+input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.boton {
+    padding: 12px;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    width: 48%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#inic-boton {
+    background-color: #89b2ff;
+    border: none;
+}
+
+#regis-boton {
+    background-color: #ffffff;
+    border: 1px solid #89b2ff;
+}
+
+#envio {
+    background-color: #2e71ee;
+    color: white;
+    border-radius: 10px;
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.olv {
+    text-align: left;
+    margin: 10px 0;
+    font-size: small;
+}
+
+.separador {
+    font-weight: 500;
+}
+
+.parrafo {
+    text-align: left;
+    font-weight: 400;
+    font-size: small;
+}
+
+.loguito1, .loguito2 {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.loguito2 {
+    margin-left: 30px;
+}

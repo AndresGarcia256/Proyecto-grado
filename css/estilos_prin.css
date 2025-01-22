@@ -1,0 +1,731 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Marmelad", sans-serif;
+}
+
+.marmelad-regular {
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+    /*Encabezado*/
+
+.encabezado {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #ffffff;
+    position: fixed;
+    width: 99%;
+    z-index: 100; 
+    height: 80px;
+}
+
+.recursosCursos a {
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.recursosCursos a:hover {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 25px;
+}
+
+.logoAzul img {
+    width: 150px; 
+    height: auto;
+}
+
+
+#barraBusqueda {
+    flex-grow: 1; 
+    margin-left: 20px;
+}
+
+#barraBusqueda input {
+    width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #6aa2de;
+}
+
+
+.registroInicio a {
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.inic_boton {
+    color: white;
+    background-color: #007BFF;
+    border: none; 
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.regis_boton {
+    color: #007BFF;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border: solid 1px #007BFF;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.inic_boton:hover{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+.regis_boton:hover{
+    background:#007BFF;
+    color: white;
+    border-radius: 25px;
+    }
+
+    
+.empiezaAhora .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/*Info de inicio*/
+
+.inicio {
+    background-color: #007BFF; 
+    height: 450px; 
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+    color: white;
+}
+.infoInicial {
+    width: 60%;
+}
+
+.infoInicial h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.infoInicial p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.empiezaAhora .btn {
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: #007BFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none; 
+    border-radius: 30px; 
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.empiezaAhora .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.imagenEstudio {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.imagenEstudio img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+
+   /* Cursos*/
+
+.seccionCursos {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.tituloCursos {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.seccionCursos h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.introCursos {
+    margin: 0 auto 40px auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    width: 80%;
+}
+
+div .seccionCursos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.seccionCursos img{
+    width: 150px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+.tituloSeccion{
+    width: 100%;
+    height: fit-content;
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 1rem;
+}
+
+.contenidoCurso {
+    height: fit-content;
+    font-size: 0.85rem;
+}
+
+.cursos{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.curso1, .curso2 {
+    /*flex: 1;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 20px;
+    width: 40%;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    
+}
+.verMasCurs { 
+    text-align: center;
+    padding: 10px 30px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    border: solid 2px #007BFF;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.verMasCurs:hover {
+    border: solid 2px #007BFF;
+    background-color: white;
+    color: #007BFF;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav img {
+        margin-bottom: 15px;
+    }
+
+    nav p {
+        text-align: center;
+    }
+}
+
+
+/*Recursos*/
+.explorar {
+    background-color: #007BFF; 
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.seccionExp {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.explorar p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+    color: white;
+}
+
+
+.opcionesRecursos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+
+.recurso {
+    text-align: center;
+    width: 30%;
+}
+
+.recurso img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    background-color: white; 
+}
+
+.recurso h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.recursos1 p{
+    display: inline-block;
+    vertical-align: top; 
+    text-align: center; 
+    width: 280px;
+    padding: 15px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recursos1 img{
+    width: 160px;
+    border-radius: 20px;
+}
+
+.verMasExp {
+    padding: 10px 30px;
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border: solid 2px white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.verMasExp:hover {
+    background-color: #007BFF;
+    color:white;
+}
+
+
+@media (max-width: 768px) {
+    .opcionesRecursos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recurso {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+/*Elegir loto*/
+
+.elegirLoto {
+    text-align: center; 
+    padding-top: 50px;
+    margin-bottom: 30px;
+    
+}
+
+.elegirLoto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #007BFF;
+    width: 100%;
+}
+
+
+.elegirLoto p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    width: 40%; 
+    margin: 0 10px; 
+    display: inline-block;
+    vertical-align: top; 
+    text-align: center; 
+}
+
+
+.elegirLoto h4 {
+    font-size: 1.8rem;
+    color: #007BFF;
+    margin-top: 30px;
+}
+
+.elegirLoto .chulito {
+    width: 40px;
+}
+
+.elegirLoto .flor_azul {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    
+}
+
+/*Planes*/
+
+.planes h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #007BFF;
+    width: 100%;
+    text-align: center;
+}
+
+.planes2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.planLite {
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.planPro{
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.planes2 .tituloPlan{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.planes2 .precio{
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.planes2 button{
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    color: white;
+    background-color: #007BFF;
+    border: solid 1px; 
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.planes2 button:hover{
+    background: white;
+    color: #007BFF;
+    border-radius: 25px;
+    border: solid 1px;
+}
+
+.planes2 li{
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.planes2 li::before{
+    content: "►";
+	color: #007BFF;
+	display: inline-block;
+	width: 1em;
+	margin-right: 5px;
+}
+
+/*Final*/
+.texto{
+    font-size: 2rem;
+    margin-bottom: 80px;
+    color: #007BFF;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto h4{
+    width: 80%;
+}
+
+footer{
+    background-color: #007BFF;
+}
+
+footer .logo_blanco{
+    width: 150px;
+    margin-top: 10px;
+}
+
+footer .agrup{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer .flor_blanca{
+    width: 100px;
+}
+
+footer .cond{
+    color: white;
+    font-size: small;
+    margin-top: 20px;
+}
+
+
+
+/* CURSOS */
+
+header {
+    background-color: #007BFF; 
+    padding: 40px 20px; 
+    text-align: center; 
+    
+}
+
+header .tituloPagina {
+    padding-top: 80px;
+    font-size: 36px; 
+    font-weight: bold; 
+    color:white; 
+    margin-bottom: 20px; 
+}
+
+header .introPagina {
+    font-size: 18px; 
+    line-height: 1.6;
+    color: white; 
+    margin: 0 auto; 
+    text-align: justify; 
+}
+
+.cursosProgramacion {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+.tituloPrg {
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px auto 20px auto;
+}
+
+.cursosProgramacion .curso {
+    display: inline-block;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cursosProgramacion .curso h3 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cursosProgramacion .curso p {
+    font-size: 15px;
+    color: #28a745;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.cursosProgramacion .curso img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.cursosProgramacion .curso button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cursosProgramacion .curso button:hover {
+    border: solid 1px #007BFF;
+    color: #007BFF;
+    background-color: white;
+}
+
+
+
+
+
+/* Barra lateral */
+.barraLateral {
+    width: 200px;
+    padding: 20px;
+    left: 0;
+    height: 100%;
+    float: left;
+}
+
+.barraLateral h2 {
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+.barraLateral h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.barraLateral ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.barraLateral ul li {
+    margin-bottom: 25px;
+}
+
+.barraLateral ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.barraLateral ul li a:hover {
+    color: #007BFF;
+}
+
+.barraLateral ul li::before {
+    content: "💻"; /* Puedes usar un emoji o un símbolo divertido */
+    position: absolute;
+    left: 10px;
+}
+
+.cursosProgramacion {
+    margin-left: 240px;
+}
+
+
+
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    #menu-toggle {
+        display: block;
+    }
+
+    .recursosCursos {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background: #f8f8f8;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .recursosCursos.active {
+        display: flex;
+    }
+
+    #barraBusqueda {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagenEstudio {
+        margin: 20px 0;
+    }
+
+    .cursos .curso1, .cursos .curso2,
+    .planes2 .planLite, .planes2 .planPro {
+        flex: 1 1 100%;
+    }
+
+    .encabezado, .registroInicio {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
